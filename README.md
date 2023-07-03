@@ -276,7 +276,7 @@ Member : 2,802,582
 
 I plotted the results.
 
-[Count of users.pdf]
+[Count of users.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Count.of.users.pdf)
 
 From April 2020 to April 2022, the company had more members (customers that pay a membership fee) than casual riders.
 
@@ -292,7 +292,7 @@ bike_percentage <- bike_tripdata %>% select(ride_id, member_casual, rideable_typ
 
 I also plotted the results. 
 
-[Usage of bikes between casual and members riders.pdf]
+[Usage of bikes between casual and members riders.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Usage.of.bikes.between.casual.and.members.riders.pdf)
 
 Docked bikes are the go-to bikes from casual riders and member riders. Classic bikes (which are dockless are number 2 in casual but close second for members) and electric bikes are third. Both casual and members seem to like to rely on dock bikes and trust the system to go around. 
 
@@ -312,8 +312,8 @@ casual_month <-  filter(bike_trip_month, member_casual =="casual")
 
 I plotted the results.
 
-[Number of rides per months of member.pdf]
-[Number of rides per months of casual users.pdf]
+[Number of rides per months of member.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Number.of.rides.per.months.of.member.pdf)
+[Number of rides per months of casual users.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Number.of.rides.per.months.of.casual.users.pdf)
 
 
 May, July and September are casual’s busiest months. It is no surprise to witness spring and summer months being the busiest month for the bike sharing company. The members are again more consistent in their use of the bike throughout the year with May, July and November being the busiest but nine month out of the twelves have at least 200,000 rides which is surprising. 
@@ -332,8 +332,8 @@ casual_weekday <-  filter(bike_trip_weekdays, member_casual =="casual")
 ```
 And I plotted the results. 
 
-[Number of rides per days of casual users.pdf]
-[Number of rides per days of member.pdf]
+[Number of rides per days of casual users.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Number.of.rides.per.days.of.casual.users.pdf)
+[Number of rides per days of member.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Number.of.rides.per.days.of.member.pdf)
 According to the plots, member riders are the most consistent in using the bikes. 5 days of the week exceeding the 400,000 rides in the member category with Tuesday, Wednesday, Thursday in the top 3. The casual riders mostly use the bikes on Saturday with roughly 400000 rides. 
 
 The difference between member and casual riders can be explained through the idea of commute + leisure for the member but only for leisure for the casual riders. 
@@ -354,8 +354,8 @@ casual_hour <- filter(bike_trip_hour, member_casual =="casual")
 
 And I plotted the results.
 
-[Number of rides per hours of member.pdf]
-[Number of rides per hours of casual users.pdf]
+[Number of rides per hours of member.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Number.of.rides.per.hours.of.member.pdf)
+[Number of rides per hours of casual users.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Number.of.rides.per.hours.of.casual.users.pdf)
 
 Member riders mostly use the bike to commute back home with a massive peak of use between 3 pm and 8pm (15h to 20h). The same time slot for the casual riders is the highest peak but can’t be compared to the member’s usage in terms of number. It can be said that members use bikes throughout the day with some consistency to the difference of the casual users that have a growing pattern from 10 am to 3 pm.
 
@@ -363,8 +363,8 @@ Member riders mostly use the bike to commute back home with a massive peak of us
 
 I thought that it would be a very interesting way to show ride data. I used Tableau to do it using the map graph.
 
-[Most used bike routes by member.pdf]
-[Most used bike stations by casual users.pdf]
+[Most used bike routes by member.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Most.used.bike.routes.by.member.pdf)
+[Most used bike stations by casual users.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Most.used.bike.stations.by.casual.users.pdf)
 
 As the graphs show, Member riders are along the lake-shore and a bit more inland but use more stations overall and have more ride from a station a to a station b. Casual riders on the other hand ride more along the lake-shore and have more rides from station a and return to that same station a.
 
@@ -388,7 +388,7 @@ mean_duration <- bike_tripdata %>% group_by(member_casual)%>% summarise(mean_dur
 
 And I plotted the results. 
 
-[Mean duration travelled by riders.pdf]
+[Mean duration travelled by riders.pdf](https://github.com/pranavswami01/Google-data-analytics-capstone-project-bike-ride-share-app/edit/main/Mean.duration.travelled.by.riders.pdf)
 
 I can confirm that the mean duration of a bike trip by casual riders is more than 40 minutes long compared to the 15 minutes of the member riders. It confirmes that the casual riders use the bike for leisure. 
 
